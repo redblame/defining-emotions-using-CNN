@@ -9,7 +9,7 @@ Development of a convolutional neural network designed to detect human emotions 
 # Загрузите набор данных по ссылке ниже и поместите в папку данных в каталоге вашего проекта
 https://www.kaggle.com/msambare/fer2013
 # Обучение нейронной сети по всем изображениям лиц в наборе данных FER2013:
-command --> python TranEmotionDetector.py
+command --> python TrainEmotionDetector.py
 Это займет несколько часов, зависит от вашего процессора. После обучения вы обнаружите, что структура обученной модели и веса хранятся в вашем каталоге проекта.
 emotion_model.json
 emotion_model.h5
